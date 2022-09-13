@@ -5,10 +5,10 @@
  *
  * always: return 0 (Success)
  *
- * pintf is not allowed
+ * printf is not allowed
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return(0);
 }
