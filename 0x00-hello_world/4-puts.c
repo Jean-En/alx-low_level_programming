@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main entry
- * always return 0
+ * main- Entry point
+ *
+ * always: return 0 (Success)
+ *
  * pintf is not allowed
  */
 int main(void)
