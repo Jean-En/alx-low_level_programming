@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** main - signe of a random number
+/**
+ * main - signe of a random number
  *
  * Return: Always 0 (Success)
  */
