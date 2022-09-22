@@ -15,10 +15,10 @@ char *_strcat(char *dest, char *src)
 	int j;
 
 	/* store the length of dest in i*/
-	for (i = 0; dest[i] != '\0'; ++j, ++i)
+	for (i = 0; dest[i] != '\0'; ++i)
 		;
 	/* concatenate src to dest */
-	for (j = 0; src[i] != '\0'; ++j, ++i)
+	for (j = 0; src[j] != '\0'; ++j; ++i)
 	{
 		dest[i] = src[j];
 	}
