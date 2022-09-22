@@ -6,7 +6,7 @@
  * Return: Always return 0
  */
 
-int maint(void)
+int main(void)
 {
 	char x = '0'; 
 	char y = 'a';
@@ -19,7 +19,7 @@ int maint(void)
 	while (y <= 'f')
 	{
 		putchar(y);
-		y++
+		y++;
 	}
 	putchar('\n');
 	return (0);
