@@ -5,7 +5,7 @@
  * program that  prints all possible combinations of single-digit numbers
  * numbers must be separated by a comma
  *
- * Return - always return 0
+ * Return: 0
  */
 
 int main(void)
