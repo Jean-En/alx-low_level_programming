@@ -3,13 +3,14 @@
  * main - main block
  *
  * Description: prints all single digit without printf
- * Return: 0
+ * Return: Always return 0
  */
+
 int main(void)
 {
 	int x;
 
-	for (x = 0 , x < 10; x++)
+	for (x = 0 ; x < 10; x++)
 	{
 		putchar('0' + x);
 	}
