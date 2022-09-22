@@ -12,7 +12,6 @@ int main(void)
 {
 	char x = '0';
 	char y = 'a';
-	
 	for (x = '0'; x <= '9'; x++)
 	{
 		putchar(x);
