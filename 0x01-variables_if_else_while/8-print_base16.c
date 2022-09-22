@@ -8,7 +8,8 @@
 
 int maint(void)
 {
-	char x = '0'; y = 'a';
+	char x = '0'; 
+	char y = 'a';
 
 	for (x = '0'; x <= '9'; x++)
 	{
@@ -18,6 +19,7 @@ int maint(void)
 	while (y <= 'f')
 	{
 		putchar(y);
+		y++
 	}
 	putchar('\n');
 	return (0);
