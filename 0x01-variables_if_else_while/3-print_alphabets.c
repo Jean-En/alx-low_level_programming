@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char c = 'a' , b = 'A';
+	char c = 'a', b = 'A';
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
