@@ -1,27 +1,27 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * a function that concatenates two strings
- * This function appends the src string to the dest string,
- * overwriting the terminating null byte (\0)
- * at the end of dest, and then adds a terminating null byte
+ * main - check the main code
  *
- * Return: a pointer to the resulting string dest
+ * _strcat - a function that concatenates two strings
+ *
+ * Return: Always 0
  */
 
-char *_strcat(char *dest, char *src)
+int main(void)
 {
-	int a = -1, i;
-	
-	for (i = 0; dest[i] != '\0'; i++)
-	;
+	int i;
+	int j;
 
-	do
+	/* store the length of dest in i*/
+	for (i = 0; dest[i] != '\0'; ++j, ++i)
+
+	/* concatenate src to dest */
+	for (j = 0; src[i] != '\0'; ++j, ++i)
 	{
-		a++;
-		dest[i] = src[a];
-		i++;
+		dest[i] = src[j];
 	}
-
-	while (src[a] != '\0')
+	dest[i] = '\0';
 	return (dest);
 }
