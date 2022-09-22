@@ -9,14 +9,14 @@
  * Return: Always 0
  */
 
-int main(void)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
 
 	/* store the length of dest in i*/
 	for (i = 0; dest[i] != '\0'; ++j, ++i)
-
+		;
 	/* concatenate src to dest */
 	for (j = 0; src[i] != '\0'; ++j, ++i)
 	{
