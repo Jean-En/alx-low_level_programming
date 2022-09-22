@@ -4,8 +4,7 @@
  *
  * program that  prints all possible combinations of single-digit numbers
  * numbers must be separated by a comma
- * numbers should be printed in ascending order
- * only putchar fonction is allowed
+ *
  * Return - always return 0
  */
 
@@ -15,11 +14,11 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
-		putchar(',');
+		putcchar('0' + i);
 
 		if (i != 9)
 		{
+			putchar(',');
 			putchar(' ');
 		}
 	}
