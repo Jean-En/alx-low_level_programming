@@ -7,16 +7,16 @@
  * Return: uppercase string
  */
 
-char *string_toupper(char *);
+char *string_toupper(char *str)
 {
-	char *ch;
+	in i = 0;
 
-	for (ch = c; *ch; ch++)
+	while (str[i++])
 	{
-		if ('a' <= *ch && <= 'z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			*ch -= 'a' - 'A';
+			str[i] -= 32;
 		}
 	}
-	return (c);
+	return (str);
 }
