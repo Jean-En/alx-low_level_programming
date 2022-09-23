@@ -6,7 +6,7 @@
  * @n: number of elements
  *
  * Description: reverses the content of an array of integers
- * Return: always 0
+ * Return: void
  */
 
 void reverse_array(int *a, int n)
