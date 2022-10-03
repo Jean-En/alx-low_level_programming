@@ -4,10 +4,16 @@
  * _putchar - write the character c to stout
  * @n: parameter
  *
- * Description - reset_to_98 reset the value of *n to 
+ * Description: takes a pointer to an int as parameter and
+ * updatet the value
  */
 
 void reset_to_98(int *n)
 {
-	*n = 98;
+	int *nu;
+	int x = 98;
+
+	nu = &x;
+	*n = *nu
+
 }
