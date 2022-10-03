@@ -4,8 +4,7 @@
  * _putchar - write the character c to stout
  * @n: parameter
  *
- * Description: a function that takes a pointer to
- * an int as parameter and updates the value it points to to 98
+ * Description: reset_to_98 the value of *n
  */
 
 void reset_to_98(int *n)
