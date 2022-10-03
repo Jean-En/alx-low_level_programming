@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 /**
  * _putchar - write the character c to stout
  * @n: parameter
