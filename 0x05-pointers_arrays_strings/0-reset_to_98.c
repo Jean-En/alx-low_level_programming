@@ -11,8 +11,8 @@
 void reset_to_98(int *n);
 {
 	int n = 98;
-	int *p;
+	int *n;
 
-	*p = &n;
-	printf("value of *p is:%d\n",*p);
+	*n = &n;
+	printf("value of *p is:%d\n",*n);
 }
