@@ -2,7 +2,7 @@
 /**
  * reverse a string
  * @s: a string
- *
+ * rev_string: prototype
  * Description:a fonction that reverse a string using a prototype
  * Return: return nothing
  */
